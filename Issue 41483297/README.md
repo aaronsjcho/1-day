@@ -28,7 +28,7 @@ Run [`setup.zsh`](./setup.zsh) in your working directory.
 
 ![](img/4.png)
 
-We can see that the address of table of `a` (blue box) is stored in the size field of table of `s` (green box). Thus, we can get an `OrderedHashSet` object which is table of `a`, by reading `s.size`.
+We can see that the address of table of `a` (green box) is stored in the size field of table of `s` (blue box). Thus, we can get an `OrderedHashSet` object which is table of `a`, by reading `s.size`.
 
 ![](img/5.png)
 
