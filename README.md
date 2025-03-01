@@ -2,6 +2,7 @@
 
 - [CVE-2019-5782](./CVE-2019-5782) (Inappropriate Implementation in V8)
 - [CVE-2020-6418](./CVE-2020-6418) (Type Confusion in V8)
+- [CVE-2020-6509](./CVE-2020-6509) (Use After Free in Extensions)
 - [CVE-2021-38003](./CVE-2021-38003) (Inappropriate Implementation in V8)
 - [CVE-2023-2033](./CVE-2023-2033) (Type Confusion in V8)
 - [CVE-2023-3079](./CVE-2023-3079) (Type Confusion in V8)
