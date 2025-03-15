@@ -7,7 +7,7 @@ Before reading, I recommend you to read [my post for Issue 40069798](https://aar
 ## Setup
 
 - Ubuntu 22.04.5 LTS (WSL)
-- [1976a3f375fb686a12d0577b0a01b164d8481414](https://chromium.googlesource.com/v8/v8/+/1976a3f375fb686a12d0577b0a01b164d8481414) (Dec 12th, 2023)
+- [1976a3f375fb686a12d0577b0a01b164d8481414](https://chromium.googlesource.com/v8/v8/+/1976a3f375fb686a12d0577b0a01b164d8481414) (Dec 12, 2023)
 
 Run [`setup.zsh`](./setup.zsh) in your working directory.
 
@@ -35,7 +35,7 @@ We can see that the address of table of `a` (green box) is stored in the size fi
 
 ### Bisection
 
-> [[set-methods]Getting other before receiver's table](https://chromium.googlesource.com/v8/v8/+/9e0005d745067c5dab681d9c95483bc71c317e2d) (Aug 18th, 2023)
+> [[set-methods]Getting other before receiver's table](https://chromium.googlesource.com/v8/v8/+/9e0005d745067c5dab681d9c95483bc71c317e2d) (Aug 18, 2023)
 >
 > This CL fix the issue of clearing receiver in case of having user arbitraty code in the `other`.
 
@@ -43,7 +43,7 @@ The bug has been existing since `symmetricDifference()` method was added, but wa
 
 ### Patch
 
-> [[set-methods]Get receiver's table after other's keys()](https://chromium.googlesource.com/v8/v8/+/4d0ea4aac11c66481e0bf6c2b1e9308a1b442aff) (Dec 12th, 2023)
+> [[set-methods]Get receiver's table after other's keys()](https://chromium.googlesource.com/v8/v8/+/4d0ea4aac11c66481e0bf6c2b1e9308a1b442aff) (Dec 12, 2023)
 >
 > This CL fixes the issue of clearing receiver's table in case of having user's arbitrary code in other's keys().
 
