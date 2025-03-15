@@ -10,6 +10,7 @@ Before reading, I recommend you to read [my post for Issue 40069798](https://aar
 - [1976a3f375fb686a12d0577b0a01b164d8481414](https://chromium.googlesource.com/v8/v8/+/1976a3f375fb686a12d0577b0a01b164d8481414) (Dec 12th, 2023)
 
 Run [`setup.zsh`](./setup.zsh) in your working directory.
+
 ## Analysis
 
 ### Root cause
