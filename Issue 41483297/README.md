@@ -6,7 +6,7 @@ Before reading, I recommend you to read [my post for Issue 40069798](https://aar
 
 ## Setup
 
-- Ubuntu 22.04.5 LTS
+- Ubuntu 22.04.5 LTS (WSL)
 - [1976a3f375fb686a12d0577b0a01b164d8481414](https://chromium.googlesource.com/v8/v8/+/1976a3f375fb686a12d0577b0a01b164d8481414) (Dec 12th, 2023)
 
 Run [`setup.zsh`](./setup.zsh) in your working directory.
@@ -38,7 +38,7 @@ We can see that the address of table of `a` (green box) is stored in the size fi
 >
 > This CL fix the issue of clearing receiver in case of having user arbitraty code in the `other`.
 
-The bug has been existed since `symmetricDifference()` method was added, but was exposed when the previous bug was patched in the commit above.
+The bug has been existing since `symmetricDifference()` method was added, but was exposed when the previous bug was patched in the commit above.
 
 ### Patch
 
